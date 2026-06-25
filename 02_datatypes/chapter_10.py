@@ -10,9 +10,9 @@ print(f"Recipe Base: {chai_recipe}")
 
 chai_order = dict(type='Ginger Chai', size='Medium', sugar=3)
 
-# print(f"Chai Order Keys : {chai_order.keys()}")
-# print(f"Chai Order Values : {chai_order.values()}")
-# print(f"Chai Order Items : {chai_order.items()}")
+print(f"Chai Order Keys : {chai_order.keys()}")
+print(f"Chai Order Values : {chai_order.values()}")
+print(f"Chai Order Items : {chai_order.items()}")
 
 last_item = chai_order.popitem()
 print(f"Removed Last Item: {last_item}")

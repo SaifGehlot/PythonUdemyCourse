@@ -10,4 +10,5 @@ print(f"Common Spices: {common_spices}")
 only_in_essential = essential_spices - optional_spices
 print(f"Essential Spices Only: {only_in_essential}")
 
+# Membership test
 print(f"Is 'cloves' present in essential spices ? : {'cloves' in essential_spices}")
