@@ -31,3 +31,18 @@ print(f"Scaled flavour strenght {powerful_flavour}")
 
 total_tea_leaves_harvested = 1_000_000_000
 print(f"tea leaves: {total_tea_leaves_harvested}")
+
+# Hands Dirty
+
+MessiGoals = 5
+RonaldoGoals = 4
+overallGoals = MessiGoals + RonaldoGoals
+print(f"Total Goals: {overallGoals}")
+overallGoals = MessiGoals - RonaldoGoals
+print(f"Total Goals: {overallGoals}")
+overallGoals = MessiGoals / RonaldoGoals
+print(f"Total Goals: {overallGoals}")
+overallGoals = MessiGoals // RonaldoGoals # double slash (//) removers the decimal part of any number
+print(f"Total Goals: {overallGoals}")
+overallGoals = MessiGoals % RonaldoGoals
+print(f"Total Goals: {overallGoals}")
