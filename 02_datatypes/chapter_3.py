@@ -42,7 +42,7 @@ overallGoals = MessiGoals - RonaldoGoals
 print(f"Total Goals: {overallGoals}")
 overallGoals = MessiGoals / RonaldoGoals
 print(f"Total Goals: {overallGoals}")
-overallGoals = MessiGoals // RonaldoGoals # double slash (//) removers the decimal part of any number
+overallGoals = MessiGoals // RonaldoGoals # double slash (//) removes the decimal part of any number
 print(f"Total Goals: {overallGoals}")
 overallGoals = MessiGoals % RonaldoGoals
 print(f"Total Goals: {overallGoals}")

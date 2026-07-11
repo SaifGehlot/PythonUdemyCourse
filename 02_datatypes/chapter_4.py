@@ -10,3 +10,9 @@ water_hot = True
 tea_added = False
 can_server = water_hot or tea_added
 print(f"can sever chai? {can_server}")
+
+# Hands Dirty
+
+isPlaying = True
+playerCount = 10
+print(isPlaying + playerCount)
