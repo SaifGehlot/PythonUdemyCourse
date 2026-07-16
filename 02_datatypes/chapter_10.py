@@ -23,3 +23,15 @@ print(f"Updated Chai Recipe: {chai_recipe}")
 
 customer_note = chai_order.get('note', "No note")
 print(f"Customer note is: {customer_note}")
+
+# Hands dirty
+
+introduction = dict(name="Mohammed Saif Gehlot", standard="FYBSC Cs A", rollno="81")
+print(introduction)
+
+subjects = {}
+subjects['sub1'] = "Discreate Mathematics"
+subjects['sub2'] = "Web programming - 1"
+print(subjects)
+del subjects['sub2']
+print(subjects)
