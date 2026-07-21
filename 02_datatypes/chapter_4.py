@@ -9,10 +9,14 @@ print(f"Is there milk {bool(milk_present)}")
 water_hot = True
 tea_added = False
 can_server = water_hot or tea_added
-print(f"can sever chai? {can_server}")
+print(f"can serve chai? {can_server}")
 
 # Hands Dirty
 
 isPlaying = True
 playerCount = 10
 print(isPlaying + playerCount)
+
+messiAg10 = True
+ronldoPo07 = False
+print(messiAg10 or ronldoPo07)
